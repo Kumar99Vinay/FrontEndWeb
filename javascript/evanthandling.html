@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASICS TAGS</title>
+        <meta charset="UTF-8">
+        <meta name="Description"content="brief description about the web page">
+        <meta name="keywords"content="important words">
+        <meta name="author"content="author name">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <script src="eventhandling.js"></script>
+        <style>
+            p{
+                border: 4px double red;
+                width: 50px;
+                height: 100px;
+                background-color: aqua;
+            }
+          
+        </style>
+
+    </head>
+    <body> 
+        <div>
+            <button onclick="showAlert()"> finish</button>
+            <input type="button" value="Add" onclick="makeaddition(45,78)">
+            
+        </div>
+        <p onmouseover="testfun()" onmouseleave="testfun1()">
+
+        </p>
+        <div>
+            <label>Enter u  name</label>
+            <input type="text" id="name" onfocus="focusFun()" onblur="blurFun()">
+
+            <label>change state:ON/OF</label>
+            <input type="checkbox" id="light" onchange="changeEvent()">
+        </div>
+        <div>
+            <textarea onselect="selectEvent()"></textarea>
+        </div>
+
+    </body>
+</html>

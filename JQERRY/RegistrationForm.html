@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <title>Table Demo</title>
+        <meta charset="UTF-8"> <!-- Unicode Transformation Format-->
+        <meta name="description" content="brief description about ur web page">
+        <meta name="keywords" content="important words">
+        <meta name="author" content="author name">
+        <meta name="viewport" content="width=device-width,initial-scale=1">      
+    </head>   
+    <style>
+        table{
+            border: 2px solid blue;
+            background-color: bisque;
+        }
+        span{
+            color: red;
+        }
+       
+    </style> 
+<body>
+<form action="Success.html" id="registerform" novalidatelo> <!-- novalidate : to disable browser validation-->
+<table>
+<tr><td><label for="fname">First Name:</label></td>
+<td><input type="text" id="fname" name="myname" ></td></tr>
+<tr><td></td><td><span id="error1"></span></td></tr>
+
+<tr><td><label for="lname" >Last Name:</label></td><td> 
+<input type="text" id="lname"> </td></tr>
+<tr><td></td><td><span id="error2"></span></td></tr>
+
+<tr><td><label for="pass">Password:</label></td>
+<td><input type="password" id="pass"></td></tr>
+<tr><td></td><td><span id="error3"></span></td></tr>
+
+<tr><td><label for="c_pass">Confirm Password:</label></td>
+<td><input type="password" id="c_pass" name="pass"></td></tr>
+<tr><td></td><td><span id="error4"></span></td></tr>
+
+
+<tr><td><label for="age">Age:</label></td>
+<td><input type="number" id="age" ></td></tr>
+<tr><td></td><td><span id="error5"></span></td></tr>
+
+
+<tr><td><label for="mobileno">Mobile :</label></td>
+    <!-- it should contain only digits -->
+    <td><input type="tel" id="mobileno"></td></tr>
+    <tr><td></td><td><span id="error6"></span></td></tr>
+
+
+
+
+<tr><td><label>Interested Courses :</label></td>
+    <td>
+     <label for="java">JAVA:</label><input type="checkbox" id="java" name="courses">
+     <label for="python">PYTHON:</label><input type="checkbox" id="python" name="courses" checked>
+     <label for="testing">TESTING:</label><input type="checkbox" id="testing" name="courses">
+     <label for="web">WEB:</label><input type="checkbox" id="web" name="courses">
+    </td>
+</tr>
+<tr><td><label for="address">Address :</label></td>
+    <td><textarea id="address"></textarea></td>
+</tr>
+<tr><td><label for="address">City :</label></td>
+    <td>
+        <select id="city">
+            <option value="navimumbai">Navi Mumbai</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+    </td>
+</tr>
+<tr><td><label>Gender :</label></td>
+    <td>
+     <label for="male">MALE:</label><input type="radio" id="male" name="gender" value="male">
+     <label for="female">FEMALE:</label><input type="radio" id="female" name="gender"  value="female">
+    </td>
+</tr>
+<tr><td colspan="2"><input type="submit" value="Register"><input type="reset"></td></tr>
+</table>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="registration.js"></script>
+</body>
+</html>

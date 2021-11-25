@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASICS TAGS</title>
+        <meta charset="UTF-8">
+        <meta name="Description"content="brief description about the web page">
+        <meta name="keywords"content="important words">
+        <meta name="author"content="author name">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+
+    </head>
+    <body>
+
+
+
+
+https://docs.google.com/spreadsheets/d/1wZr7hLuyMsdDJ3D95zHBAHHC62-AVTHChWQ2Wsmlv_c/edit?usp=sharing
+attendens link
+
+
+https://docs.google.com/spreadsheets/d/1wZr7hLuyMsdDJ3D95zHBAHHC62-AVTHChWQ2Wsmlv_c/edit?usp=sharing
+test marks attendence
+
+https://docs.google.com/spreadsheets/d/1MrdBsOG6uwMinKCK1UPOpKDpFaW4e30XdyLBOH7stTw/edit#gid=52998759
+
+Angular Attendence link
+
+https://github.com/sachinpatil101/CoreJava
+sachin sir github link
+
+MysqlPassword  Kumarvinay99@
+
+
+
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class HelloWorldServlet extends HttpServlet {
+
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
+			throws ServletException, IOException {
+		
+		resp.setContentType("text/html");
+PrintWriter out = resp.getWriter();
+		out.println("Hello Servlet!!");
+		out.close();			
+	}
+}
+
+
+
+<servlet>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<servlet-class>com.neosoft.HelloWorldServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>HelloServlet</servlet-name>
+  	<url-pattern>/hello</url-pattern>  	
+  </servlet-mapping>
+
+
+https://drive.google.com/file/d/1zIqRI6OUtRsEQbbA09EyiYPiiY34vTy5/view?usp=sharing
+
+
+npm install bootstrap@4.5.0
+
+npm install popper.js@1.16.0
+
+
+https://www.studytonight.com/servlet/crud-example.php
+https://dotnettutorials.net/lesson/crud-in-servlet/
+
+netstat -ano | findstr 8080
+taskkill /pid  Process_id /F   servlet remove
+
+String str = "some text";
+int c = str.split("some").length - 1;
+Logic 2:
+String in = "Some text";
+int i = 0;
+Pattern p = Pattern.compile("Some");
+Matcher m = p.matcher( in );
+while (m.find()) {
+    i++;
+}
+System.out.println(i);
+
+
+
+
+
+
